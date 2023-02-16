@@ -11,7 +11,7 @@ const AppRouter = () => {
                 <Route path="/" element={<HomePages />} />
                 <Route path="/nuestromenu" element={<NuestroMenu />} />
                 <Route path="/crud" element={<CrudPages/>} />
-                <Route path="#" element={<h1>Error404</h1>}/>
+                <Route path="*" element={<h1>Error404</h1>}/>
 
             </Routes>
         </Router>
